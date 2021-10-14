@@ -27,7 +27,7 @@ You can contribute to any of these projects or change anything..
 - Java
 - Advance Java
 
-## 🤩 Our Awesome contributors 🤩:
+## 🤩 Our contributors 🤩:
 <a href="https://github.com/moviesmania30/Hacktoberfest-2021/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=moviesmania30/Hacktoberfest-2021" />
 </a>
