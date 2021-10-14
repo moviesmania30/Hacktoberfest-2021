@@ -14,6 +14,19 @@ You can contribute to any of these projects or change anything..
 - push to your branch or MAIN branch
 - Create PUll request
 
+## Acceptable Topic/Language/Framework For This Repository
+- HTML
+- CSS
+- JavaScript 
+- PHP
+- Bootstrap
+- C
+- C++
+- C#
+- Python
+- Java
+- Advance Java
+
 
 ### Getting started with git 🚀
 [Git Tutorial](https://www.digitalocean.com/community/tutorials/how-to-contribute-to-open-source-getting-started-with-git)
