@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript List-dropdowns</title>
+    <!-- FONT AWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- BULMA CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
+    />
+
+    <style>
+      button {
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+      }
+      li {
+        list-style: none;
+      }
+      .list-left button,
+      .trans {
+        line-height: 40px;
+      }
+      button:hover {
+        background-color: #007ef9;
+        color: white;
+      }
+      .list-left ul li:hover {
+        background-color: #d9d9e6b6;
+        font-weight: bolder;
+        color: black;
+        cursor: pointer;
+      }
+      .hide {
+        display: none;
+      }
+
+      .trans {
+        transition: 0.3s;
+        transform: rotate(0deg);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- List dropdown -->
+    <ul class="list-left">
+      <!-- First dropdown-menu -->
+      <li class="">
+        <div class="columns">
+          <div class="column is-1 we py-0">
+            <i class="fas fa-chevron-right trans" id="arrow"></i>
+          </div>
+          <div class="column py-0">
+            <button onclick="unhideItemOne()" id="unhideBtn">
+              Comptes(01)
+            </button>
+            <button class="hide" onclick="hideItemOne()" id="hideBtn">
+              Comptes(01)
+            </button>
+          </div>
+        </div>
+      </li>
+      <ul class="dropdown-one hide pl-5" id="hiddenOne">
+        <li>List 1</li>
+      </ul>
+
+      <!-- second dropdown-menu -->
+      <li class="">
+        <div class="columns">
+          <div class="column is-1 we py-0">
+            <i class="fas fa-chevron-right trans" id="arrowTwo"></i>
+          </div>
+          <div class="column py-0">
+            <button onclick="unhideItemTwo()" id="unhideBtnTwo">
+              Mouvements(04)
+            </button>
+            <button class="hide" onclick="hideItemTwo()" id="hideBtnTwo">
+              Mouvements(04)
+            </button>
+          </div>
+        </div>
+      </li>
+      <ul class="dropdown-two hide pl-5" id="hiddenTwo">
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+      </ul>
+
+      <!-- Third dropdown-menu -->
+      <li class="">
+        <div class="columns">
+          <div class="column is-1 we py-0">
+            <i class="fas fa-chevron-right trans" id="arrowThird"></i>
+          </div>
+          <div class="column py-0">
+            <button onclick="unhideItemThird()" id="unhideBtnThird">
+              Budget(02)
+            </button>
+            <button class="hide" onclick="hideItemThird()" id="hideBtnThird">
+              Budget(02)
+            </button>
+          </div>
+        </div>
+      </li>
+      <ul class="dropdown-three hide pl-5" id="hideenThird">
+        <li>List 1</li>
+        <li>List 2</li>
+      </ul>
+
+      <!-- Fourth dropdown-menu -->
+      <li class="">
+        <div class="columns">
+          <div class="column is-1 we py-0">
+            <i class="fas fa-chevron-right trans" id="arrowFourth"></i>
+          </div>
+          <div class="column py-0">
+            <button onclick="unhideItemFourth()" id="unhideBtnFourth">
+              Autres structures (03)
+            </button>
+            <button class="hide" onclick="hideItemFourth()" id="hideBtnFourth">
+              Autres structures (03)
+            </button>
+          </div>
+        </div>
+      </li>
+      <ul class="dropdown-four hide pl-5" id="hideenFourth">
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+      </ul>
+    </ul>
+
+    <script src="index.js"></script>
+  </body>
+</html>
