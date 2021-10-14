@@ -1,5 +1,5 @@
-# Hactoberfest-2021
-Hactoberfest 2021 Repository to contribute your code
+# Hacktoberfest-2021
+Hacktoberfest 2021 Repository to contribute your code
 # github-fest-2021
 
 You can contribute to any of these projects or change anything..
