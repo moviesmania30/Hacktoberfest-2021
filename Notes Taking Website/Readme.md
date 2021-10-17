@@ -1,0 +1,1 @@
+This is a Notes Taking Website, built using pure HTML, CSS and JavaScript.
