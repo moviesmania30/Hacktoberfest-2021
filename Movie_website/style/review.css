@@ -1,0 +1,87 @@
+.review {
+	width: 88vh;
+	height: 66vh;
+	background: var(--clr-grey-1-2);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+}
+
+.imdb,
+.rotten {
+	background: var(--clr-grey-2-2);
+}
+
+.imdb {
+	flex: 1;
+	margin: 10px;
+	height: 200px;
+	position: relative;
+}
+
+.rotten {
+	flex: 1;
+	margin: 10px;
+	height: 200px;
+	position: relative;
+}
+
+.rotten img {
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -70%);
+}
+
+.imdb img {
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -70%);
+}
+
+.rating {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, 10%);
+}
+
+h1.rating {
+	font-family: impact;
+	padding: 10px;
+	color: var(--clr-grey-4);
+}
+
+.review-box2 {
+	margin: 10px;
+	padding: 15px;
+	height: 37vh;
+	overflow-y: scroll;
+}
+
+.review-sentance h3 {
+	color: white;
+	margin-top: 5px;
+	margin-left: 2px;
+}
+
+.review-sentance p {
+	padding: 10px;
+}
+
+.review-sentance {
+	padding: 5px;
+	border-bottom: solid;
+	border-color: var(--clr-grey-4);
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	background: transparent; /* make scrollbar transparent */
+	background-color: var(--clr-grey-4);
+}
