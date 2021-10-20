@@ -11,10 +11,10 @@ website [Yellowbox213](https://yellowbox213.herokuapp.com/movies/)
 ## OUTPUT
 
 **movies.html** file
-![index.html](./output1.jpg)
+![index.html](./output1.JPG)
 
 **index.html** file
-![index.html](./output2.jpg)
+![index.html](./output2.JPG)
 
 ---
 
