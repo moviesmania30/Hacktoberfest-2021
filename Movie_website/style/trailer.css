@@ -1,0 +1,24 @@
+.trailer {
+	width: 75vw;
+	height: 42vw;
+	background: var(--clr-grey-1-2);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+}
+
+.trailer h1 {
+	color: white;
+	margin-bottom: 30px;
+}
+
+.trailer-box {
+	box-sizing: border-box;
+
+	height: 90%;
+	margin: 10px;
+	
+}
+

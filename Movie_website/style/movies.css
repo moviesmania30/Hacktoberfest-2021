@@ -1,0 +1,59 @@
+.container {
+	width: 100vw;
+	background: rgb(34, 40, 49);
+	background: linear-gradient(
+		18deg,
+		rgba(34, 40, 49, 1) 0%,
+		rgba(15, 18, 22, 1) 45%
+	);
+	color: white;
+	padding: 5vw;
+}
+
+.image {
+	width: 180px;
+	border: solid;
+	border-color: white;
+}
+
+.image img {
+	width: 100%;
+}
+
+p.Genre {
+	font-size: 1.2rem;
+	color: var(--clr-grey-4);
+}
+
+p.summary {
+	color: var(--clr-grey-4);
+	font-size: 1rem;
+}
+
+.movie-list-item h3 {
+	font-size: 2.2rem;
+	font-family: Archivo-semibold-itailic;
+}
+
+.movie-list-item {
+	padding: 5%;
+	width: 20vw;
+	flex: 1;
+}
+.list {
+	display: flex;
+	flex-direction: row;
+}
+@media screen and (max-width: 1200px) {
+	.movie-list-item {
+		width: 25vw;
+		padding: 30px 10px;
+	}
+	.list {
+		flex-direction: column;
+	}
+
+	.container {
+		padding: 40px;
+	}
+}
